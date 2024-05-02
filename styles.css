@@ -1,0 +1,139 @@
+*{
+    font-family: 'Maven Pro'; 
+    
+}
+
+:root {
+    --azul: #192847;
+  }
+
+body{
+    background-image: url(imagenes/fondo-textura.webp);
+}
+
+/* navbar */
+
+.navbar{
+    padding: 1.5%;
+    /* background-color: var(--azul); */
+}
+
+.contenedor-navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion{
+    display: flex;
+    gap: 5vw;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: var(--azul);
+    font-size: 1.3rem;
+
+}
+
+
+/* primer div */
+.primer-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 3% ;
+}
+
+.div-logo{
+    color: var(--azul);
+    text-shadow: 5px 5px 10px #7491ca;
+}
+
+.div-logo-titulo{
+    text-align: center;
+    line-height: 90%;
+    font-size: 8rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.div-logo-texto{
+    text-align: center;
+    font-size:2rem;
+
+
+}
+
+.div-imagen{
+    margin: auto 0;
+    width: 40vw;
+    height: 70vh;
+    box-shadow: 3px 3px 10px 3px var(--azul);
+    background-color:#111d35;
+    
+}
+
+.div-imagen-img{
+    width: 40vw;
+    height: 70vh;
+    filter: brightness(0.8);
+
+}
+
+/* segundo div */
+.segundo-div{
+    background-color: var(--azul);
+    /* background-image: url(imagenes/blue-background.jpg); */
+    /* background-size: cover; */
+    color: white;
+    padding: 10% ;
+}
+
+.titulo-segundo-div{
+    text-align: center;
+    margin: 0;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.texto-segundo-div{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 300 ;
+}
+
+
+/* tercer div */
+.fila{
+    display: flex;
+    align-items: center;
+}
+
+.fila-texto{
+    width: 40vw;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    padding: 5vw;
+}
+
+.fila-imagen{
+    width: 50vw;
+}
+
+.fila-imagen img{
+    width: 100%;
+    height: 80vh;
+    filter: brightness(0.6);
+}
+  
+.primer-fila, .tercer-fila{
+    background-color: rgb(208, 214, 221);
+    color: var(--azul);
+}
+
+.segunda-fila{
+    background-color: var(--azul);
+    color: white;
+}
+
